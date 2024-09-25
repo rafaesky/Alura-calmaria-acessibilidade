@@ -42,3 +42,4 @@ Cursos da formação:
 
 - `CSS: ajustando a acessibilidade visual em um projeto`
 - `Acessibilidade no HTML: escrevendo códigos semânticos para inclusão`
+- `Acessibilidade Web: manipulando WAI-ARIA e elementos interativos com Javascript`

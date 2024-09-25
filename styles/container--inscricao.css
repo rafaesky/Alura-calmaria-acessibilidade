@@ -1,121 +1,107 @@
-.container__incricao {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    row-gap: 2.4rem;
-    padding: 4rem 1.6rem;
-}
+/* Seção inscrição */
 
-.container__incricao--form-input button:hover {
-    background-color: var(--lilas-escuro);
-    transition: .5s;
-    cursor: pointer;
+.container__incricao {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  row-gap: 24px;
+  padding: 40px 16px;
 }
 
 .container__incricao--mobile {
-    width: 18.2rem;
-    height: 10.3rem;
+  width: 182px;
+  height: 103px;
 }
 
 .container__incricao--tablet {
-    display: none;
-}
-
-.container__incricao .container__incricao--form-titulo {
-    font-size: 2.6rem;
-}
-
-.container__incricao .container__incricao--form-texto {
-    font-size: 2.2rem;
+  display: none;
 }
 
 .container__incricao .container__incricao--div {
-    display: flex;
-    flex-direction: column;
-    row-gap: 2.4rem;
-    max-width: 110.2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  max-width: 1102px;
 }
 
 .container__incricao--form-input {
-    width: 32.8rem;
-    height: 6.5rem;
-    border-radius: 6.5rem;
-    border: 0.1rem solid var(--azul-escuro);
-    margin: 0 auto;
-    display: inline-flex;
-    row-gap: 2.4rem;
+  width: 328px;
+  height: 65px;
+  border-radius: 65px;
+  border: 1px solid var(--azul-escuro);
+  margin: 0 auto;
+  display: inline-flex;
+  row-gap: 24px;
 }
 
 .container__incricao--form-input input {
-    border: none;
-    outline: none;
-    width: 65%;
-    margin-left: 3.2rem;
-    font-family: "Montserrat", sans-serif;
-    font-size: 2rem;
-    color: #0C0421;
+  border: none;
+  outline: none;
+  width: 65%;
+  margin-left: 3.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  color: #0c0421;
 }
 
 .container__incricao--form-input button {
-    width: 35%;
-    color: white;
-    background: var(--azul-botao);
-    border-radius: 0 6.5rem 6.5rem 0;
-    border: none;
-    font-size: 2.4rem;
-    font-weight: 700;
-    font-family: 'Montserrat';
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 35%;
+  color: white;
+  background: var(--azul-escuro);
+  border-radius: 0 65px 65px 0;
+  border: none;
+  font-size: 18px;
+  font-family: "Montserrat";
+  cursor: pointer;
+}
+
+.container__incricao--form-input button:hover {
+  background: var(--lilas-claro);
+  transition: 0.5s;
 }
 
 @media screen and (min-width: 768px) {
+  /* Seção inscrição */
 
-    /* Seção inscrição */
+  .container__incricao {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 0;
+    padding-right: 0;
+  }
 
-    .container__incricao {
-        display: flex;
-        text-align: center;
-        flex-direction: row;
-        justify-content: space-between;
-        padding-left: 0;
-        padding-right: 0;
-    }
+  .container__incricao .container__incricao--mobile {
+    display: none;
+  }
 
-    .container__incricao .container__incricao--mobile {
-        display: none;
-    }
+  .container__incricao .container__incricao--form-titulo {
+    font-size: 31px;
+    font-family: Krona One;
+    font-weight: 400;
+  }
 
-    .container__incricao .container__incricao--form-titulo {
-        font-size: 3.1rem;
-        font-family: Krona One;
-        font-weight: 400;
-    }
+  .container__incricao--form-texto {
+    font-size: 22px;
+  }
 
-    .container__incricao--form-texto {
-        font-size: 1.3rem;
-    }
+  .container__incricao--form-input {
+    width: 368px;
+  }
 
-    .container__incricao--form-input {
-        width: 36.8rem;
-    }
-
-    .container__incricao--tablet {
-        display: block;
-    }
-
+  .container__incricao--tablet {
+    display: block;
+  }
 }
 
 @media screen and (min-width: 1440px) {
+  /* Seção inscrição */
 
-    /* Seção inscrição */
-
-    .container__incricao--form-input {
-        width: 79rem;
-        height: 6.5rem;
-        row-gap: 2.4rem;
-    }
-
+  .container__incricao--form-input {
+    width: 790px;
+    height: 65px;
+    row-gap: 24px;
+  }
 }
