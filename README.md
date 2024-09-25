@@ -37,3 +37,8 @@ Depois, abra o projeto no seu navegador.
 
 O Calmaria Spa é uma empresa fictícia utilizada nesse curso da Alura.
 A ideia principal desse curso é evoluir ainda mais os conhecimentos em Acessibilidade Web com foco em CSS. 
+
+Cursos da formação:
+
+- `CSS: ajustando a acessibilidade visual em um projeto`
+- `Acessibilidade no HTML: escrevendo códigos semânticos para inclusão`
